@@ -33,21 +33,18 @@
         </a>
     </nav>
 
+    
     <!-- MODAL -->
     <div class="modal-container">
         <div class="modal">
-            <div class="modal-head" style="display: flex;"> <h3>MENU</h5>
-            </div><hr style="color: white;">
             <div class="modal-bod">
-                <a href="" style="color: white; text-decoration: none;"><div class="kategori">Kategori</div></a>
-                <a href="" style="color: white; text-decoration: none;"><div class="keluar" style="margin-top: 10px;">Keluar</div></a>
+                <a class="kateg-btn" style="color: white; text-decoration: none;"><div class="kategori" style="margin-top: 5px;">Kategori</div></a>
             </div>
         </div>
     </div>
     </div>
     <script>
         const modalBtn = document.querySelector(".modal-btn");
-        const closeBtn = document.querySelector(".close-btn");
         const modalContainer = document.querySelector(".modal-container");
         modalBtn.addEventListener("click", () => {
             modalContainer.classList.add("show");
@@ -56,6 +53,7 @@
             modalContainer.classList.remove("show");
         });
     </script>
+
 
     <div class="wrapper">
         <div class="navigationbar">
@@ -80,7 +78,7 @@
     <div class="butbaca" style="box-shadow: 1px 3px 8px black; border: 2px solid black; border-radius: 15px; background-color: #D9D9D9; height: 40px; width: 900px; margin: auto;">
     <div style="padding: 10px; text-align: center; font-size: large; font-weight: 500px; color: black;">BACA</div>
     </div></a>
-    <br><br><br><br><br><br><br><br>
+    <br>
 
     
     <!-- BAB -->
@@ -125,33 +123,8 @@
         });
     </script>
 
-    <div style="margin-left: 600px;">
-    <div class="card mb-4" style="width: 200px;">
-            <div class="card-body">
-                <fieldset class="rating">
-                    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
-                                    
-                    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-                                    
-                    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
-                                
-                    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-                                    
-                    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-                </fieldset>
-                
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <br><br>
-    <a class="nilai" style="cursor: pointer; text-decoration: none;">
-    <div class="butbaca" style="border: 2px solid black; box-shadow: 1px 3px 8px black; border-radius: 15px; background-color: #D9D9D9; height: 40px; width: 900px; margin: auto;"><div style="padding: 10px; text-align: center; font-size: large; font-weight: 500px; color: black;">BERI RATING</div></div>
-    </a>
-
     <?php
-    include "../bwh.php"
+    include "bwh.php"
     ?>
 </body>
 

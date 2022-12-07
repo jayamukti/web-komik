@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,12 +16,14 @@
 <body>
     <nav>
         <div class="menu">
-            <iconify-icon icon="eva:menu-outline" width="60" height="40"></iconify-icon>
+            <a class="modal-btn">
+                <iconify-icon icon="eva:menu-outline" width="60" height="40"></iconify-icon>
+            </a>
         </div>
         <div class="komiksih">
             <h1 style="margin: 0; text-align: center;">komiksih</h1>
         </div>
-        
+
         <a class="butprof" href="profil.php" style="background-color: #CC1C1C;">
             <div class="profie">
                 <link>
@@ -28,11 +33,46 @@
         </a>
     </nav>
 
+    <!-- MODAL -->
+    <div class="modal-container">
+        <div class="modal">
+            <div class="modal-head" style="display: flex;">
+                <h3>MENU</h5>
+            </div>
+            <hr style="color: white;">
+            <div class="modal-bod">
+                <a href="" style="color: white; text-decoration: none;">
+                    <div class="kategori">Kategori</div>
+                </a>
+                <a href="" style="color: white; text-decoration: none;">
+                    <div class="keluar" style="margin-top: 10px;">Keluar</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        const modalBtn = document.querySelector(".modal-btn");
+        const closeBtn = document.querySelector(".close-btn");
+        const modalContainer = document.querySelector(".modal-container");
+        modalBtn.addEventListener("click", () => {
+            modalContainer.classList.add("show");
+        });
+        modalContainer.addEventListener("click", () => {
+            modalContainer.classList.remove("show");
+        });
+    </script>
+
     <div class="wrapper">
         <div class="navigationbar">
-            <li style="padding: 15px 0 15px 15px;"><a style=" background-color: #413F3F; color: white; padding: 15px;" href="index.php" type="text/css">BERANDA</a></li>
-                <li><a href="populer.php" type="text/css">POPULER</a></li>
-            <div class="box"><input type="search" class="input"><a href="" class="butsearch" type="submit"><iconify-icon icon="akar-icons:search" width="15" height="15" style="color: black;"></a></iconify-icon></div>
+            <li style="padding: 15px 0 15px 15px;"><a style="color: white; padding: 15px;" href="index.php" class="active" type="text/css">BERANDA</a></li>
+            <li><a href="populer.php" type="text/css">POPULER</a></li>
+            <div class="box"><input type="search" class="input"><a href="" class="butsearch" type="submit">
+                    <iconify-icon icon="akar-icons:search" width="15" height="15" style="color: black;">
+                </a></iconify-icon>
+            </div>
         </div>
     </div><br><br><br><br>
 </body>
+
+</html>

@@ -19,7 +19,7 @@
             <p style="color: grey; margin-top: 5px; font-size: 9pt;">selamat datang kembali, silahkan masukkan detail anda</p>
         </div>
 
-        <form action="daftar.php" method="POST">
+        <form action="bedaftar.php" method="POST">
             <div class="flex">
                 <label for="email" class="tulisan">Alamat Email</label>
                 <input type="email" class="email" name="email" placeholder="Email">
@@ -37,30 +37,9 @@
 
         <div class="akhir">
             <p>Sudah memiliki akun?</p>
-            <a href="login.php">Masuk</a>
+            <a href="masuk.php">Masuk</a>
         </div>
     </div>
-
-    <?php
-        // memanggil file
-        include "koneksidb.php";
-        if(isset($_POST['submit'])){
-        @$nama_pengguna = $_POST['nama_pengguna'];
-        @$level = $_POST['level'];
-        @$email = $_POST['email'];
-        @$kata_sandi = $_POST['kata_sandi'];
-        @$kirim = $_POST['submit'];
-        @$query = "INSERT INTO 'tbl_user' (nama_pengguna, email, kata_sandi) VALUES ('$nama_pengguna','$email','$kata_sandi')";
-        
-        // hasil data
-        if ($kirim) {
-            $hasil = mysqli_query($koneksi, $query);
-            echo "data berhasil disimpan";
-            echo "<a href='/User/home.php'> Lihat data</a>";  
-        }
-    }
-
-        ?>
 
     <footer>
         <h1>komiksih</h1>

@@ -32,7 +32,7 @@
         <div class="navigationbar">
             <li style="padding: 15px 0 15px 15px;"><a style=" color: white; padding: 15px;" href="index.php" type="text/css">BERANDA</a></li>
             <li><a href="populer.php" type="text/css">POPULER</a></li>
-            <div class="box"><input type="search" class="input" placeholder="Cari"><a href="" class="butsearch" type="submit">
+            <div class="box"><input type="search" class="input"><a href="" class="butsearch" type="submit">
                     <iconify-icon icon="akar-icons:search" width="15" height="15" style="color: black;">
                 </a></iconify-icon>
             </div>
@@ -98,14 +98,11 @@
         </a>
     </div><br><br><br><br>
 
-    <div style="display: flex; flex-direction: row;">
-        <div style="margin-left: 230px;"><img style="border-radius: 50%; height: 35px; width: 35px;" src="https://acehvideo.tv/wp-content/uploads/2022/05/Anime-Boy-9.jpg"></div>
-        <form><input type="text" class="kirkom"><button type="submit" class="send" style="background-color: #4F4E4E; color: white; outline: none; margin-left: -40px;"><iconify-icon icon="ic:round-send"></iconify-icon></button>
+    
     </div><br>
     <div class="komentar">
         <div></div>
     </div>
-    </form>
     <br><br><br><br><br><br><br><br><br><br>
     <footer>
         <div class="komiksih" style="margin-left: 130px;">

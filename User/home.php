@@ -21,7 +21,7 @@
             </a>
         </div>
         <div class="komiksih">
-            <h1 style="margin: 0;">komiksih</h1>
+            <h1 style="margin: 0; text-align: center;">komiksih</h1>
         </div>
 
         <a class="butprof" href="profil.php" style="background-color: #CC1C1C;">
@@ -35,25 +35,22 @@
 
     <div class="wrapper">
         <div class="navigationbar">
-            <li style="padding: 15px 0 15px 15px;"><a style="background-color: #413F3F; color: white; padding: 15px;" href="index.php" type="text/css">BERANDA</li></a>
+            <li style="padding: 15px 0 15px 15px;"><a style=" background-color: #413F3F;  color: white; padding: 15px;" href="index.php" type="text/css">BERANDA</li></a>
             <li><a href="populer.php" type="text/css">POPULER</a></li>
-            <div class="box"><input type="search" class="input" placeholder="Cari"><a href="" class="butsearch" type="submit">
+            <div class="box"><input type="search" class="input"><a href="" class="butsearch" type="submit">
                     <iconify-icon icon="akar-icons:search" width="15" height="15" style="color: black;">
                 </a></iconify-icon>
             </div>
         </div>
     </div>
 
-
     <!-- MODAL -->
     <div class="modal-container">
         <div class="modal">
             <div class="modal-bod">
-                <a class="kateg-btn" style="color: white; text-decoration: none;"><div class="kategori" style="margin-top: 5px;">Kategori</div></a>
-                <a href="../index.php" style="color: white; text-decoration: none;"><div class="keluar" style="margin-top: 10px;">Keluar</div></a>
+                <a class="kateg-btn">Hai</a>
             </div>
         </div>
-    </div>
     </div>
     <script>
         const modalBtn = document.querySelector(".modal-btn");
@@ -66,22 +63,11 @@
         });
     </script>
 
-    <!-- KATEGORI -->
+    <!-- kategori -->
     <div class="kateg-container">
         <div class="kateg">
             <div class="kateg-bod">
-                <div class="scroll-kateg" style="overflow-y: auto; height: 460px; margin-top: 10px;">
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div style="background-color: #E8B3B3; height: 50px; width: 1060px; box-shadow: 3px 2px 5px #b51818; border-radius: 8px; margin-left: 60px;"><div style="padding-top: 10px;">Aksi</div></div></a>
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div class="ktk-kategori"><div style="padding-top: 10px;">Drama</div></div></a>
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div class="ktk-kategori"><div style="padding-top: 10px;">Dunia Lain</div></div></a>
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div class="ktk-kategori"><div style="padding-top: 10px;">Fantasi</div></div></a>
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div class="ktk-kategori"><div style="padding-top: 10px;">Horor</div></div></a>
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div class="ktk-kategori"><div style="padding-top: 10px;">Komedi</div></div></a>
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div class="ktk-kategori"><div style="padding-top: 10px;">Psikologi</div></div></a>
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div class="ktk-kategori"><div style="padding-top: 10px;">Romantis</div></div></a>
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div class="ktk-kategori"><div style="padding-top: 10px;">Sekolah</div></div></a>
-                <a href="aksi.php" style="text-decoration: none; cursor: pointer; color: black;"><div class="ktk-kategori"><div style="padding-top: 10px;">Bela Diri</div></div></a>
-                </div>
+                Hai
             </div>
         </div>
     </div>
@@ -162,7 +148,7 @@
                 </div>
                 <div style="flex-direction: column;">
                     <a href="infokomik.php" style="text-decoration: none;">
-                        <div class="item" style="margin-right: -5px; background-image: url(https://i2.wp.com/westmanga.info/wp-content/uploads/2022/01/Talent-Swallowing-Magician.jpg?resize=165,225); background-size: cover;"></div><br>
+                        <div class="item" style="background-image: url(https://i2.wp.com/westmanga.info/wp-content/uploads/2022/01/Talent-Swallowing-Magician.jpg?resize=165,225); background-size: cover;"></div><br>
                         <div style="color: white; max-width: 120px; font-size: small;">Talent-Swallowing Magician</div>
                     </a>
                 </div>

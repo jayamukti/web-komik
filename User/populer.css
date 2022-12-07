@@ -28,7 +28,7 @@ nav {
 
 .profie {
     color: white;
-    
+    display: flex;
 }
 
 .menu {
@@ -66,8 +66,8 @@ nav {
     }
 
 .box {
-    margin-top: 9px;
-    margin-left: 1050px;
+    margin-top: 12px;
+    margin-left: 900px;
     border: black;
     width: 200px;
     border-radius: 9px;
@@ -80,7 +80,7 @@ nav {
     border: none; 
     width: 30px;
     height: 30px;
-    margin-top: -22px;
+    margin-top: -24px;
     margin-left: 160px;
     cursor: pointer;
 }
@@ -91,6 +91,7 @@ nav {
     width: 185px;
     border-radius: 9px;
     padding-right: 32px;
+    padding-left: 10px;
     border: 0px;
 }
 
@@ -103,8 +104,176 @@ footer {
     justify-content: space-between;
 }
 
+.scrollsam {
+    max-height: 320px;
+    display: flex;
+    border: 1px;
+    overflow-x: auto;
+    margin-left: 35px;
+    width: 928px;
+}
+
+.scrollsam::-webkit-scrollbar {
+    width: 3000px;
+}
+
+.scrollsam .item {
+    background-color: aqua;
+    min-width: 120px;
+    display: flex;
+    height: 180px;
+    margin-right: 40px;
+}
+
+.item {
+    background-color: aqua;
+    min-width: 120px;
+    display: flex;
+    height: 180px;
+    margin-right: 40px;
+}
+
 body {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins';
+}
+
+/* ATAS */
+.ktk-ats {
+    width: 1100px;
+    background-color: #CC1C1C;
+    margin: auto;
+    height: 415px;
+    border-radius: 22px;
+    margin-top: 50px;
+}
+
+.ab {
+    background-color: #4F4E4E;
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.ac {
+    background-color: #4F4E4E;
+    height: 295px;
+    width: 1000px;
+    margin: auto;
+}
+
+/* MODAL */
+.modal-btn {
+    border: none;
+    cursor: pointer;
+}
+
+.modal-container {
+    position: fixed;
+    margin-top: -130px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    backdrop-filter: bl ;
+}
+
+.modal {
+    background-color: #CC1C1C;
+    width: 200px;
+    height: 100px;
+    outline: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    transform: scale(0.6s);
+    transform: transform 0.3s;
+}
+
+.modal-bod{
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.modal-container.show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-container.show.modal{
+    transform: scale(1);
+}
+
+/* KATEGORI */
+.kateg-btn {
+    border: none;
+    cursor: pointer;
+}
+
+.kateg-container {
+    position: absolute;
+    margin-top: -143px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    backdrop-filter: bl ;
+}
+
+.kateg {
+    background-color: #CC1C1C;
+    width: 1200px;
+    height: 500px;
+    margin-left: 70px;
+    outline: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    transform: scale(0.6s);
+    transform: transform 0.3s;
+}
+
+.kateg-bod{
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.kateg-container.show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.kateg-container.show.modal{
+    transform: scale(1);
+}
+
+.ktk-kategori {
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: #E8B3B3;
+    border-radius: 8px;
+    height: 50px;
+    width: 1060px;
+    box-shadow: 3px 2px 5px #b51818;;
+}
+
+.scroll-kateg {
+    overflow-y: auto;
+    height: 480px;
+}
+
+.scroll-kateg::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+/* BAWAH */
+.jrk-bwh {
+    margin-left: 20px;
 }

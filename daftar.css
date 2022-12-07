@@ -7,19 +7,21 @@
 }
 
 body {
-    overflow-y: hidden;
     font-family: 'Poppins';
 }
 
 h1 {
-    font-family: 'ribeye';
+    font-family: 'Ribeye';
+    padding-top: 14px;
+    font-weight: 600;
+    color: white;
 }
 
-header {
+nav {
     background-color: #CC1C1C;
     text-align: center;
-    padding: 10px 0;
-    color: white;
+    padding: 10px;
+    height: 70px;
 }
 
 .login {

@@ -24,7 +24,7 @@
             <h1 style="margin: 0;">komiksih</h1>
         </div>
 
-        <a class="butprof" href="profil.php" style="background-color: #CC1C1C;">
+        <a class="profil-btn" style="background-color: #CC1C1C;">
             <div class="profie">
                 <link>
                 <iconify-icon icon="gg:profile" width="50" height="30"></iconify-icon>
@@ -36,7 +36,7 @@
     <div class="wrapper">
         <div class="navigationbar">
             <li style="padding: 15px 0 15px 15px;"><a style="background-color: #413F3F; color: white; padding: 15px;" href="index.php" type="text/css">BERANDA</li></a>
-            <li><a href="populer.php" type="text/css">POPULER</a></li>
+            <li><a href="/User/populer.php" type="text/css">POPULER</a></li>
             <div class="box"><input type="search" class="input" placeholder="Cari"><a href="" class="butsearch" type="submit">
                     <iconify-icon icon="akar-icons:search" width="15" height="15" style="color: black;">
                 </a></iconify-icon>
@@ -50,7 +50,6 @@
         <div class="modal">
             <div class="modal-bod">
                 <a class="kateg-btn" style="color: white; text-decoration: none;"><div class="kategori" style="margin-top: 5px;">Kategori</div></a>
-                <a href="../index.php" style="color: white; text-decoration: none;"><div class="keluar" style="margin-top: 10px;">Keluar</div></a>
             </div>
         </div>
     </div>
@@ -65,6 +64,29 @@
             modalContainer.classList.remove("show");
         });
     </script>
+
+        
+    <!-- profil -->
+    <div class="profil-container">
+        <div class="profil">
+            <div class="profil-bod">
+                <a href="daftar.php" style="color: white; text-decoration: none;"><div class="kategori" style="margin-top: 5px;">Daftar</div></a>
+                <a href="masuk.php" style="color: white; text-decoration: none;"><div class="kategori" style="margin-top: 5px;">Masuk</div></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        const profilBtn = document.querySelector(".profil-btn");
+        const profilContainer = document.querySelector(".profil-container");
+        profilBtn.addEventListener("click", () => {
+            profilContainer.classList.add("show");
+        });
+        profilContainer.addEventListener("click", () => {
+            profilContainer.classList.remove("show");
+        });
+    </script>
+
 
     <!-- KATEGORI -->
     <div class="kateg-container">
