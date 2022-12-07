@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-y: hidden;
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-family: 'ribeye';
+}
+
+header {
+    background-color: #CC1C1C;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.login {
+    border: 1px solid grey;
+    margin: 50px 430px 100px 430px;
+    padding: 20px 20px 80px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.kirim {
+    margin-top: 15px;
+}
+
+form {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex input  {
+    padding: 10px 20px;
+    width: 300px;
+}
+
+.kir {
+    margin-top: 20px;
+    font-size: 10pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kir a {
+    color: black;
+    text-decoration: none;
+}
+
+.akhir {
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.akhir a {
+    text-decoration: none;
+    font-style: none;
+    color: blue;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #4F4E4E;
+    padding: 50px;
+    color: white;
+    justify-content: space-between;
+}

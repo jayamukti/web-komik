@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+nav {
+    background-color: #CC1C1C;
+    padding: 10px; 
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.butprof {
+    margin: 32px;
+    display: block;
+    border: none; 
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.komiksih {
+    color: white;
+    font-family: 'Ribeye';
+    font-size: medium;
+    font-weight: 600;
+}
+
+.profie {
+    color: white;
+    
+}
+
+.menu {
+    color: white;
+    size: 1000px;
+}
+
+.wrapper {
+    background-color:#4F4E4E;
+}
+
+.fo {
+    font-family: 'Poppins';
+}
+
+.navigationbar {
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigationbar>li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navigationbar>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.beranda {
+    margin-left: 15px;
+    }
+
+.box {
+    margin-top: 9px;
+    margin-left: 1050px;
+    border: black;
+    width: 200px;
+    border-radius: 9px;
+    height: 30px;
+}
+
+.butsearch {
+    margin: 32px;
+    display: block;
+    border: none; 
+    width: 30px;
+    height: 30px;
+    margin-top: -22px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.input {
+    outline: none;
+    height: 28px;
+    width: 185px;
+    border-radius: 9px;
+    padding-right: 32px;
+    border: 0px;
+}
+
+footer {
+    background-color: #4F4E4E;
+    height: 100px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
